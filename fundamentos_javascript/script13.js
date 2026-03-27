@@ -9,7 +9,7 @@ let valorCena = Number(prompt("dime el costo de la cena "));
 let nPersonas = Number(prompt("dime el numero de personas "));
 let nombreMas = prompt("quien comio mas?");
 let nombreMenos = prompt("quien comio menos?");
-let vPersona = valorCena / (2+0.5+(nPersonas-2));
+let vPersona = valorCena / (nPersonas + 0.5);
 let mas = vPersona*2;
 let mitad = Math.trunc(vPersona*0.5);
 
