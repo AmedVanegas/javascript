@@ -17,19 +17,20 @@ if (usuario == computer) {
 
     alert("Empate :|")
 
-
 }
 
-else if ((usuario == "tijeras" && computer == "papel") || (usuario == "piedra" && computer == "tijeras") || (usuario == "papel" && computer == "piedra")) {
+else if (
+
+    (usuario == "tijeras" && computer == "papel") ||
+    (usuario == "piedra" && computer == "tijeras") ||
+    (usuario == "papel" && computer == "piedra")) {
 
     alert("Ganaste :) ")
 
-
 }
 
-else  {
+else {
 
     alert("Perdiste :( ")
-
 
 }
