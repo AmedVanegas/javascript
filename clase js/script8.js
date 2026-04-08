@@ -2,7 +2,7 @@
 
  let largo = Number(prompt( ` ¿ Hasta que numero quieres tu tabla ?`))
 
- if ( num > 11 || num < 1){
+ if ( (num > 11 || num < 1) || ( largo < 0 )) {
 
     alert("Ingrese un numero valido")
 
