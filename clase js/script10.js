@@ -28,17 +28,11 @@ for(i = 0 ; i < palabras.length ; i++ ){
         
     }
 
-}
-
-for (j = palabras.length - 1 ; j >= 0; j-- ){
-
-    
-    inversion.push( palabras[j] )
-
-
-
+    inversion.unshift(palabras[i])
 
 }
+
+
 
 
 
