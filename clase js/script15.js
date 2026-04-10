@@ -1,4 +1,3 @@
-
 let data = [2024, 100, 3000, 2100]
 let biciesto = ""
 
