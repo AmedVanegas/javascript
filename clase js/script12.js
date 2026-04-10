@@ -13,14 +13,14 @@ while (estado) {
 
 
 
-    if (i > 6) {
+    if (i >= 6) {
 
         alert(`gastate tus 6 intentos`)
         estado = false
 
 
 
-    } else if ( user == azar ) {
+    } else if (user == azar) {
 
 
         alert(`ganaste en ${i} intentos`)
