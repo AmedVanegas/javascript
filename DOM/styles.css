@@ -1,0 +1,14 @@
+.btns{
+
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+
+.btns>button{
+
+    display: block;
+
+
+}
