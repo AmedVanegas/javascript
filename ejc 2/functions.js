@@ -28,7 +28,7 @@ export function paresImpares(numeros) {
 export function holaA (arrays){
 
    
-    console.log("hola ".repeat(arrays.length ))
+    console.log("hola ".repeat(arrays.length))
 
 
 
